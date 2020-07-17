@@ -22,7 +22,7 @@ export default class SpChart extends Component {
             let cumulativeReturn = 0
 
             SpData.map(row=>{
-                if(row.year<=currentYear){
+                if(row.year<=currentYear && row.year>=this.state.startYear){
                     cumulativeReturn = cumulativeReturn+Number(row.totalReturn)
                 }
             })
@@ -84,7 +84,7 @@ export default class SpChart extends Component {
                     <tr className='tr-border'>
                         <th>Year</th>
                         <th>Total Return</th>
-                        <th>Cumulative Returns</th>
+                        <th>Cumulative Return</th>
                     </tr>
                 </thead>
                 <tbody>

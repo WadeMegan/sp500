@@ -1,36 +1,36 @@
 nav{
-  background-color:#2780e3;
-  height:50px;
-  width:100%;
+  background-color: #2780e3;
+  height: 50px;
+  width: 100%;
 }
 
 nav ul{
-  height:100%;
-  display:flex;
+  height: 100%;
+  display: flex;
   align-items: center;
-  float:right;
+  float: right;
 }
 
 nav li{
   display: inline-block;
-  margin-right:10px;
+  margin-right: 10px;
 }
 
 nav img{
-  width:2em;
-  height:2em;
+  width: 2em;
+  height: 2em;
 }
 
 nav a{
   display: block;
-  width:100%;
-  height:2em;
-  color:white;
+  width: 100%;
+  height: 2em;
+  color: white;
 }
 
 main{
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  padding:20px;
+  padding: 20px;
 }

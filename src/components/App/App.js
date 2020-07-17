@@ -1,9 +1,9 @@
-import React, {Component} from 'react'
-import './App.css'
-import SpChart from '../SpChart/SpChart'
-import Logo from '../../assets/white-logo.png'
+import React, {Component} from "react"
+import "./App.css"
+import SpChart from "../SpChart/SpChart"
+import Logo from "../../assets/white-logo.png"
 
-export default class App extends Component {
+export default class App extends Component{
 
   render(){
     return (

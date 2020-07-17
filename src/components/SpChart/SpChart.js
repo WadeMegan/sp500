@@ -30,8 +30,8 @@ export default class SpChart extends Component {
             return(
                 <tr key={index} className="hoverableTr">
                     <td>{row.year}</td>
-                    <td>{row.totalReturn}</td>
-                    <td>{cumulativeReturn.toFixed(2)}</td>
+                    <td className={row.totalReturn<0?"negativeValue":""}>{row.totalReturn}</td>
+                    <td className={cumulativeReturn<0?"negativeValue":""}>{cumulativeReturn.toFixed(2)}</td>
                 </tr>
             )
         }

@@ -36,3 +36,7 @@ tr{
     width:50% !important;*/
     display:inline-block;
 }
+
+.negativeValue{
+    color:red;
+}

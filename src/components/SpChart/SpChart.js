@@ -45,7 +45,6 @@ export default class SpChart extends Component{
 
     //if user changes range, set start and end year in state
     handleRangeChange=(range)=>{
-        console.log(range)
         this.setState({
             startYear:range[0],
             endYear:range[1]

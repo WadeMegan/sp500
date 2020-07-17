@@ -67,7 +67,7 @@ export default class SpChart extends Component {
     }
 
     return(
-        <Range className='range' min={1926} max={2019} defaultValue={[1926,2019]} onAfterChange={range=>this.handleRangeChange(range)} allowCross={false} marks={marks}/>
+        <Range className='range' min={1926} max={2019} defaultValue={[1926,2019]} onAfterChange={range=>this.handleRangeChange(range)} allowCross={false} marks={marks} tooltip={true}/>
     )
 
   }
